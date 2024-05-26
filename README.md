@@ -1,4 +1,4 @@
-## Readme del proyecto de sitio web responsivo con HTML5 y CSS
+## Proyecto de sitio web responsivo con HTML5 y CSS
 
 **Descripción del proyecto**
 
