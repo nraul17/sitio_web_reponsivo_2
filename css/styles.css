@@ -45,11 +45,50 @@ header {
 }
 
 .menu a:hover,
-.mostrar-menu,
-.esconder-menu {
+.mostrar-menu:hover,
+.esconder-menu:hover {
   background-color: #6cc091;
 }
 
 #check {
   display: none;
+}
+
+/* Aca se aplican los estilos para el responsive */
+
+@media(max-width:768px) {
+  .mostrar-menu,
+  .esconder-menu {
+    display: block;
+  }
+
+  /* Con esto se crea el menu emergente en pantallas menores a 768px */
+  .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #4d4d5c;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 100px 0;
+    z-index: 100;
+    transition: 0.8;
+  }
+
+  .menu a{
+    display: block;
+    padding: 15px 0;
+  }
+
+  .esconder-menu {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+  /* Con esta propiedad se abre y cierra el menu en pantallas pequeñas */
+  #check:checked ~ .menu {
+    right: 0;
+  }
 }
