@@ -9,13 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
 
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
-    <h1>Esto es una prueba</h1>
+    <header>
+      <h2 class="logo">NR Diseño Web</h2>
+      <!-- El menu de hamburguesa se inserta en las dos lineas siguientes con un input y una label-->
+      <input type="checkbox" id="check">
+      <label for="check" class="mostrar-menu">&#8801</label>
+      <!-- Aca se crea el menu de navegacion normal-->
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+        <!-- Con esta label se cerrará el menu emergente en dispositivos moviles-->
+        <label for="check" class="esconder-menu">&#</label>
+      </nav>
+    </header>
+    
   </body>
 </html>
