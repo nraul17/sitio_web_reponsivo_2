@@ -194,6 +194,96 @@ header {
   padding: 0 25px;
 }
 
+/* Estilos del formulario de contacto */
+#contacto {
+  background-color: #6cc091;
+  color: white;
+  padding: 50px 0;
+}
+
+#contacto h3 {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+#contacto form {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.datos-form {
+  display: flex;
+}
+
+.datos-form div {
+  padding: 10px;
+  flex: 1;
+}
+
+form lab {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  background-color: #6cc091;
+  border-radius: 10px;
+  border: 2px solid #d4f1e1;
+  padding: 10px 5px;
+  outline: 0;
+  color: white;
+  width: 100%;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #4bae77;
+  box-shadow: 0,0,0,1px #4bae77;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: white;
+}
+
+.mensaje {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.boton-formulario {
+  display: block;
+  padding: 20px 30px;
+  border: solid 1px white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.boton-formulario:hover {
+  background-color: #4fa776ad;
+}
+
+.boton-formulario a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+  background-color: #4d4d5c;
+  padding: 10px 0;
+  color: white;
+}
+
+
+
 /* Aca se aplican los estilos para el responsive */
 
 @media(max-width:768px) {
@@ -253,5 +343,9 @@ header {
 
   .contenido-iconos div {
     margin: 25px 0;
+  }
+
+  .datos-form {
+    flex-direction: column;
   }
 }
