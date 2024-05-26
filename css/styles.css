@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'poppins';
+  scroll-behavior: smooth;
 }
 
 /* Estilos del Header*/
@@ -120,7 +121,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 90vh;
 }
 
 .tarjetas {
@@ -157,40 +157,42 @@ header {
   transition: 0.4s;
 }
 
-#contenido-iconos {
+#iconos {
+  padding: 0px 50px;
+  background-color: #4d4d5c;
+}
+
+.contenido-iconos {
   display: flex;
-  flex-direction: row;
+  padding: 50px;
   justify-content: space-between;
   text-align: center;
-  height: 70vh;
-  background-color: #4d4d5c;
-  align-items: center;
 }
 
-#contenido-iconos div {
-  padding: 50px 20px;
-}
-
-#contenido-iconos p {
-  text-align: center;
-  padding: 5px 25px;
-  color: white;
-}
-
-#contenido-iconos i {
-  color: #6cc091;
-  padding-bottom: 25px;
-}
-
-#contenido-iconos h3 {
-  color: #6cc091;
+.contenido-iconos div {
+  flex: 1;
+  margin: 20px;    
 }
 
 .tarjeta-central {
-  border-left: solid 1px white;
-  border-right: solid 1px white;
+  border-right: solid 1px rgba(255, 255, 255, 0.397);
+  border-left: solid 1px rgba(255, 255, 255, 0.39);
 }
 
+.contenido-iconos i {
+  color: #6cc091;
+  padding-bottom: 10px;
+}
+
+.contenido-iconos h3 {
+  color: #6cc091;
+  padding-bottom: 10px;
+}
+
+.contenido-iconos p {
+  color: white;
+  padding: 0 25px;
+}
 
 /* Aca se aplican los estilos para el responsive */
 
@@ -237,5 +239,19 @@ header {
 
   .tarjetas {
     width: 50%;
+  }
+
+  /* Responsive de la seccion iconos */
+
+  .contenido-iconos {
+    flex-direction: column;
+  }
+
+  .tarjeta-central {
+    border: none;
+  }
+
+  .contenido-iconos div {
+    margin: 25px 0;
   }
 }
