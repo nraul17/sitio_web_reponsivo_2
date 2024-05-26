@@ -120,6 +120,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  height: 90vh;
 }
 
 .tarjetas {
@@ -154,6 +155,40 @@ header {
   background-color: #6cc091;
   color: white;
   transition: 0.4s;
+}
+
+#contenido-iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  height: 70vh;
+  background-color: #4d4d5c;
+  align-items: center;
+}
+
+#contenido-iconos div {
+  padding: 50px 20px;
+}
+
+#contenido-iconos p {
+  text-align: center;
+  padding: 5px 25px;
+  color: white;
+}
+
+#contenido-iconos i {
+  color: #6cc091;
+  padding-bottom: 25px;
+}
+
+#contenido-iconos h3 {
+  color: #6cc091;
+}
+
+.tarjeta-central {
+  border-left: solid 1px white;
+  border-right: solid 1px white;
 }
 
 
