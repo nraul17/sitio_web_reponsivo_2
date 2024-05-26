@@ -1,3 +1,55 @@
-html {
+/* Reset inicial para eliminar los valores por defecto de los elementos y establecer la familia de fuentes*/
+
+*{
+  margin: 0;
+  padding: 0;
   font-family: 'poppins';
+}
+
+/* Estilos del Header*/
+header {
+  height: 100px;
+  background-color: #4d4d5c;
+  padding: 0 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  text-transform: uppercase;
+  color: #6cc091;
+  font-weight: 700;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+
+.mostrar-menu,
+.esconder-menu {
+  font-size: 30px;
+  cursor: pointer;
+  /* Importante! el display:none es para que no se muestre la hamburguesa en pantallas grandes */
+  display: none;
+  transition: 0.4s;
+}
+
+.mostrar-menu {
+  order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu,
+.esconder-menu {
+  background-color: #6cc091;
+}
+
+#check {
+  display: none;
 }
