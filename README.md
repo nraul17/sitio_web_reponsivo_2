@@ -1,13 +1,5 @@
 ## Proyecto de sitio web responsivo con HTML5 y CSS
 
-### Screenshot
-
-![Desktop version](./pictures/escritorio.jpg) ![Mobile version](./pictures/) ![Mobile version 2](./pictures/mobile-2.png) ![Mobile version 3](./pictures/mobile-3.jpeg)
-
-Como pueden ver, la tarjeta funciona tanto en dispositivos móviles como de escritorio. Esto es muy importante, ya que actualmente la mayoría de visitas a sitios web se realizan desde un smartphone.
-
-### Links
-
 **Descripción del proyecto**
 
 Este proyecto consiste en el desarrollo de un sitio web responsivo utilizando únicamente HTML5 y CSS. El objetivo es crear un sitio web que se adapte a diferentes tamaños de pantalla, desde dispositivos móviles hasta computadoras de escritorio, sin necesidad de utilizar frameworks o bibliotecas adicionales.
