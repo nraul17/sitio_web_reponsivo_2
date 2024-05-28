@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![Desktop version](./pictures/escritorio.jpg) ![Mobile version](./pictures/) ![Mobile version 2](./pictures/mobile-2.png) ![Mobile version 3](./pictures/mobile-3.jpeg)
+![Desktop version](./pictures/desktop-version.jpg) ![Mobile version](./pictures/mobile-1) ![Mobile version 2](./pictures/mobile-2.png) ![Mobile version 3](./pictures/mobile-3.jpeg)
 
 Como pueden ver, la tarjeta funciona tanto en dispositivos móviles como de escritorio. Esto es muy importante, ya que actualmente la mayoría de visitas a sitios web se realizan desde un smartphone.
 
