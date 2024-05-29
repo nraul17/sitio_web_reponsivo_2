@@ -65,7 +65,7 @@ header {
 /* Estilos del banner */
 #banner {
   padding: 0 50px;
-  background-image: url(/pictures/banner.jpg);
+  background-image: url(pictures/banner.jpg);
   height: 80vh;
   background-size: cover;
   background-position: center;
