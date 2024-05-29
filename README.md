@@ -19,6 +19,7 @@ La estructura del proyecto se organiza de la siguiente manera:
 - `index.html`: El archivo principal del sitio web que contiene el contenido HTML.
 - `styles.css`: El archivo principal de estilos CSS que define el aspecto del sitio web.
 - `images`: Carpeta que contiene las imágenes utilizadas en el sitio web.
+- `screenshots`: Carpeta donde encontrarás capturas de pantalla del proyecto en vivo.
 
 **Requisitos para ejecutar el proyecto**
 
